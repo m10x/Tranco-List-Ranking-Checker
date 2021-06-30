@@ -45,6 +45,10 @@ func main() {
 	count := 0
 
 	for _, url := range sliceURLs {
+		url = strings.TrimPrefix(url, "https://")
+		url = strings.TrimPrefix(url, "http://")
+		url = strings.TrimSuffix(url, "/")
+
 		if url == "" {
 			wg.Done()
 			continue
@@ -115,8 +119,8 @@ func parseFlags() (string, string, int, int) {
 	flag.StringVar(&pathTranco, "t", "", "short for tranco")
 	flag.StringVar(&pathURLs, "urls", "", "path to the list with URLs")
 	flag.StringVar(&pathURLs, "u", "", "short for urls")
-	flag.IntVar(&threshold, "threshold", 1000, "Ranking threshold for which URLs will be printed. Default is 1000")
-	flag.IntVar(&threads, "threads", 50, "Threads to use. Default is 50")
+	flag.IntVar(&threshold, "threshold", 1000, "Ranking threshold. Only print URLs whose ranking is within the threshold. Default is 1000")
+	flag.IntVar(&threads, "threads", 10, "Threads to use. Default is 50")
 
 	flag.Parse()
 
