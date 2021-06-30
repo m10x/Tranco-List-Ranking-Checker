@@ -28,6 +28,8 @@ https://www.facebook.com
 [Download here from releases](https://github.com/m10x/Tranco-List-Ranking-Checker/releases/)  
 .\tranco-checker.exe -u C:\path\to\urllist.txt -t C:\path\to\tranco.csv
 
+![image](https://user-images.githubusercontent.com/4344935/123954579-dc60da00-d9a8-11eb-868a-244db8fc37e1.png)
+
 ## Linux (amd64)
 [Download here from releases](https://github.com/m10x/Tranco-List-Ranking-Checker/releases/)  
 chmod +x .\tranco-checker  
@@ -42,4 +44,5 @@ go run path/to/tranco-checker.go -u path/to/urllist.txt -t /path/to/tranco.csv
 
 # Possible TODOs:
 - write sorted output to file
+- output without the "rank," prefix (= only URL)
 - ?
