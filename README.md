@@ -22,11 +22,11 @@ https://www.facebook.com
 
 # Usage:
 ## Windows (amd64)
-[Download here from releases](https://github.com/m10x/Tranco-List-Ranking-Checker/releases/)
+[Download here from releases](https://github.com/m10x/Tranco-List-Ranking-Checker/releases/)  
 .\tranco-checker.exe -u C:\path\to\urllist.txt -t C:\path\to\tranco.csv
 
 ## Linux (amd64)
-[Download here from releases](https://github.com/m10x/Tranco-List-Ranking-Checker/releases/)
+[Download here from releases](https://github.com/m10x/Tranco-List-Ranking-Checker/releases/)  
 chmod +x .\tranco-checker
 .\tranco-checker -u path/to/urllist.txt -t /path/to/tranco.csv
 
