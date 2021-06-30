@@ -1,5 +1,5 @@
 # Tranco-List-Ranking-Checker
-[![Release](https://img.shields.io/github/release/m10x/gw2chatcodebuddy.svg?color=brightgreen)](https://github.com/m10x/Tranco-List-Ranking-Checker/releases)
+[![Release](https://img.shields.io/github/release/m10x/Tranco-List-Ranking-Checker.svg?color=brightgreen)](https://github.com/m10x/Tranco-List-Ranking-Checker/releases)
 
 # What does this do?
 The Tranco-List-Ranking-Checker takes two files as input.  
