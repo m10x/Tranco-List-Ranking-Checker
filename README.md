@@ -27,7 +27,7 @@ https://www.facebook.com
 
 ## Linux (amd64)
 [Download here from releases](https://github.com/m10x/Tranco-List-Ranking-Checker/releases/)  
-chmod +x .\tranco-checker
+chmod +x .\tranco-checker  
 .\tranco-checker -u path/to/urllist.txt -t /path/to/tranco.csv
 
 ## Go
