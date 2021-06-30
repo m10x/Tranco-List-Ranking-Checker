@@ -1,5 +1,7 @@
 # Tranco-List-Ranking-Checker
 [![Release](https://img.shields.io/github/release/m10x/Tranco-List-Ranking-Checker.svg?color=brightgreen)](https://github.com/m10x/Tranco-List-Ranking-Checker/releases)
+[![Exe](https://img.shields.io/badge/.exe-Windows%2Famd64-orange)](https://github.com/m10x/Tranco-List-Ranking-Checker/releases/)
+[![Elf](https://img.shields.io/badge/elf-Linux%2Famd64-orange)](https://github.com/m10x/Tranco-List-Ranking-Checker/releases/)
 
 # What does this do?
 The Tranco-List-Ranking-Checker takes two files as input.  
